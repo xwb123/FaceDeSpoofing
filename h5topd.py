@@ -60,3 +60,5 @@ if __name__ == '__main__':
     h5_model = load_model(weight_file_path)
     h5_to_pb(h5_model, output_dir=output_dir, model_name=output_graph_name)
     print('Finished')
+    
+    ##################################end####
